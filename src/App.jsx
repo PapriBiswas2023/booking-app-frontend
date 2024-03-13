@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Header/>
+    <h4>{count}</h4>
+    <button onClick={()=>setCount(count+1)}>Add +</button>
     </>
   )
 }
