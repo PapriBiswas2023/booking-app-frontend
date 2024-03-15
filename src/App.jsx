@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import Header from './components/Header/Header'
-import Navbar from './components/Navbar'
+
+import List from './pages/List'
 function App() {
 
   return (
     <>
-   <Navbar/>
-   <Header/>
+      <List />
     </>
   )
 }
