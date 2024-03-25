@@ -1,3 +1,4 @@
+import './propertyList.css'
 const PropertyList = () => {
     return (
         <div className="pList">
