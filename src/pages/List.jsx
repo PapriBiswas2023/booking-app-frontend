@@ -1,6 +1,6 @@
 import "./list.css";
-import Navbar from '../components/Navbar'
-import Header from "../../components/header/Header";
+import Navbar from '../components/Navbar';
+import Header from "../components/Header/Header";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { format } from "date-fns";
@@ -15,6 +15,7 @@ const List = () => {
 
   return (
     <div>
+
       <Navbar />
       <Header type="list" />
       <div className="listContainer">
